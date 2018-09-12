@@ -1,6 +1,6 @@
 .colour {
-  position: absolute;
-    left: 100px;
+  position: fixed;
+    left: 200px;
     top: 200px;
   width: 100%;
   font-size: 15px;
