@@ -7,6 +7,7 @@ export class Title extends Component {
         {PhoneData.map((phone, index)=>{
           return <div className="title" key={index}>
           <h1>{phone.groupName}</h1>
+          <h2>{phone.rating}</h2>
           </div>
         })}
         </div>
