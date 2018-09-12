@@ -1,0 +1,13 @@
+.title {
+  top: 0;
+  position: absolute;
+    left: 100px;
+    top: 150px;
+  width: 100%;
+
+}
+.title_content {
+  position: absolute;
+  right: 10px;
+  top: 150px
+}

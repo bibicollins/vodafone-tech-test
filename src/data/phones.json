@@ -6,7 +6,8 @@
             {
                 "deviceId": "094377",
                 "displayName": "Apple iPhone 8 64GB Gold",
-                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip.",
+                "displayDescription2": "Intelligence never looked better.",
                 "colourName": "Gold",
                 "colourHex": "#f8e7dc",
                 "memory": "64GB",
