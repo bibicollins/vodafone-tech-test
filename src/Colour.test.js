@@ -1,16 +1,9 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 import Colour from './Colour';
-import GoldPhone from './data/Apple_iPhone_8_Gold-full-product-front.png'
+
 
 describe('Colour', () => {
-  let mockSilverHandleClick;
- let wrapper;
- beforeEach(() => {
-   let wrapper = shallow(<Colour silverHandleClick={mockSilverHandleClick} />);
-   mockSilverHandleClick = jest.fn();
-   let silverHandleClick = wrapper.instance()
- });
 
   let colour = mount(<Colour colour="test"/>);
   it('renders the colour', () => {
@@ -19,8 +12,12 @@ describe('Colour', () => {
   it("renders an image", () => {
     expect(colour.find("img").prop("src")).toEqual("/static/media/Apple_iPhone_8_Gold-full-product-front.d05bf662.png");
   });
-  it('renders an image on click', () => {
+  it('renders the silverPhone image on click', () => {
     colour.find('button').at(1).simulate('click');
-    expect(wrapper.instance()).toHaveBeenCalled();
+    expect(colour.find("img").prop("src")).toEqual("/static/media/Apple_iPhone_8_Silver_WS2-full-product-front.621754c0.png");
+  });
+  it('renders the spaceGrayPhone image on click', () => {
+    colour.find('button').at(2).simulate('click');
+    expect(colour.find("img").prop("src")).toEqual("/static/media/Apple_iPhone_8_Space_Grey_WS2-full-product-front.ac7acdc4.png");
   });
   })
