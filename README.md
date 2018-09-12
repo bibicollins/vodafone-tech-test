@@ -27,11 +27,27 @@ Or! You can access the page here: https://tech-test-bibi.herokuapp.com/
 ```
 As a Vodafone Customer, 
 So that I can make the best purchase, 
-I want to access a website to show me their range 
+I want to access a website to show me the range of iPhone 8's available
 
 As an aesthetically minded Vodafone Customer, 
 So that I can have the coolest Iphone 8, 
 I want to see images of the different colour phones available
+
+As a big data consumer, 
+So that I can download all my apps
+I want to see the data capacity options for the phones
+
+As a thrifty Vodafone Customer, 
+So that I can make the best financial decision, 
+I want to see the prices available
+
+As a curious Vodafone Customer, 
+So that I can learn more about what I am purchasing, 
+I want to see a description of the phones
+
+As an unsure Vodafone Customer, 
+So that I can make the best decision, 
+I want to see the average review rating
 
 
 ```
@@ -44,6 +60,7 @@ This was the first time I have properly used react, so I began by researching, a
 The coverage tool for create-react-app does not have an obvious way of excluding files, so in the entire coverage it is lower owing to the index.js & registerServiceWorker.js files created by react-create-app. 
 
 ## <a name="cross"></a>Cross Browser Testing
+#### I used the crossbrowsertesting website to live test whether my deployed app would display in Chrome, IE11 and Firefox. All display!
 <h4> Chrome: </h4>
 <img src="https://imgur.com/5sUZ9NM.png" width="400">
 <h4> IE11: </h4>
