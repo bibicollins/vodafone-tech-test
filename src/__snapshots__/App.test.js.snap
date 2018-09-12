@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <div
+      className="title"
+    >
+      <h1>
+        Apple iPhone 8
+      </h1>
+      <h2>
+        4.2
+      </h2>
+      <h3>
+        All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip.
+      </h3>
+      <h4>
+        Intelligence never looked better.
+      </h4>
+    </div>
+  </div>
+  <div
+    className="buttons"
+  >
+    <button
+      className="gold"
+      onClick={[Function]}
+    />
+    <button
+      className="silver"
+      onClick={[Function]}
+    />
+    <button
+      className="space"
+      onClick={[Function]}
+    />
+    <div
+      className="colour"
+    >
+      <h4>
+        Colour: 
+        Gold
+      </h4>
+      <img
+        src="/static/media/Apple_iPhone_8_Gold-full-product-front.d05bf662.png"
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="64"
+      onClick={[Function]}
+    >
+      64GB
+    </button>
+    <button
+      className="256"
+      onClick={[Function]}
+    >
+      256GB
+    </button>
+    <div
+      className="capacity"
+    >
+      <h4>
+        Capacity: 
+        64GB
+      </h4>
+      <div
+        className="price1"
+      >
+        <h4
+          id="oneOff"
+        >
+          From £
+          149
+           upfront cost
+        </h4>
+      </div>
+      <div
+        className="price2"
+      >
+        <h4
+          id="month"
+        >
+          When you pay £
+          43.20
+           a month
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;

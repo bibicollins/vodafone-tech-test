@@ -2,6 +2,7 @@ import React from 'react';
 import PhoneData from './data/phones.json'
 import { mount, shallow } from 'enzyme';
 import Title from './Title';
+import renderer from 'react-test-renderer';
 
 describe('Title', () => {
   let title = mount(<Title />);
@@ -18,4 +19,10 @@ describe('Title', () => {
   it('renders the second part of description', () => {
     expect(title.find('h4').text()).toEqual('Intelligence never looked better.')
   })
+  it('renders correctly', () => {
+    const tree = renderer.create(
+      <Title />
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

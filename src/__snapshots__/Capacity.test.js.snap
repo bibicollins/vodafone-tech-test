@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Capacity renders correctly 1`] = `
+<div>
+  <button
+    className="64"
+    onClick={[Function]}
+  >
+    64GB
+  </button>
+  <button
+    className="256"
+    onClick={[Function]}
+  >
+    256GB
+  </button>
+  <div
+    className="capacity"
+  >
+    <h4>
+      Capacity: 
+      64GB
+    </h4>
+    <div
+      className="price1"
+    >
+      <h4
+        id="oneOff"
+      >
+        From £
+        149
+         upfront cost
+      </h4>
+    </div>
+    <div
+      className="price2"
+    >
+      <h4
+        id="month"
+      >
+        When you pay £
+        43.20
+         a month
+      </h4>
+    </div>
+  </div>
+</div>
+`;

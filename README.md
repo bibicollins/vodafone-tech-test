@@ -4,6 +4,7 @@ Given these requirements:
 ![goal-page](https://imgur.com/mAczVXI.png)
 2- On selection of a colour or capacity the image will change and the prices will update
 ## How to Use
+
 ## Process
 ## Test Coverage
 ## Summary

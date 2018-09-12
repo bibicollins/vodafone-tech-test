@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders correctly 1`] = `
+<div>
+  <div
+    className="title"
+  >
+    <h1>
+      Apple iPhone 8
+    </h1>
+    <h2>
+      4.2
+    </h2>
+    <h3>
+      All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip.
+    </h3>
+    <h4>
+      Intelligence never looked better.
+    </h4>
+  </div>
+</div>
+`;
