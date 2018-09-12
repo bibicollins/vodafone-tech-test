@@ -6,6 +6,6 @@ describe('Colour', () => {
   let colour = mount(<Colour colour="test"/>);
   it('renders the colour', () => {
     console.log(colour.debug())
-    expect(colour.find('h1').text()).toEqual('Colour: Gold')
+    expect(colour.find('h4').text()).toEqual('Colour: Gold')
   });
 });
