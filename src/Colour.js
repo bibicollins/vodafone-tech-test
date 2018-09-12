@@ -38,7 +38,9 @@ export class Colour extends Component {
         return <div className="colour" key={index}>
 
         <h4>Colour: {phone.deviceSummary[this.state.index].colourName}</h4>
-        <img src={this.state.image}></img>
+        <div className="image">
+        <img src={this.state.image} width="300" height="500"></img>
+        </div>
         </div>
       })}
       </div>

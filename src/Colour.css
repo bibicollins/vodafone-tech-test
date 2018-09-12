@@ -31,3 +31,8 @@
   cursor: pointer;
   background-color: #e1e2e3;
 }
+.image {
+  position: fixed;
+  top: 25px;
+  left: -10px;
+}
